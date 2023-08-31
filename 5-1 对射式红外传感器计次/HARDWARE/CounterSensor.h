@@ -2,4 +2,6 @@
 #define __COUNTER_SENSOR_H	
 
 
+void CountSensor_I(void);
+
 #endif 

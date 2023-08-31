@@ -3,19 +3,20 @@
         {
             "name": "LCD",
             "includePath": [
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\HARDWARE\\LED",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\SYSTEM\\delay",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\SYSTEM\\sys",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\SYSTEM\\usart",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\USER",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\STM32F10x_FWLib\\inc",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\CORE",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\HARDWARE\\KEY",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\HARDWARE\\LCD",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\HARDWARE\\LED",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\SYSTEM\\delay",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\SYSTEM\\sys",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\SYSTEM\\usart",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\USER",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\STM32F10x_FWLib\\inc",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\CORE",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\HARDWARE\\KEY",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\HARDWARE\\LCD",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\HARDWARE",
                 "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include",
                 "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验\\STM32F10x_FWLib\\src",
-                "d:\\桌面\\stm32\\实验13 TFTLCD显示实验"
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次\\STM32F10x_FWLib\\src",
+                "d:\\桌面\\stm32\\5-1 对射式红外传感器计次"
             ],
             "defines": [
                 "STM32F10X_HD",
