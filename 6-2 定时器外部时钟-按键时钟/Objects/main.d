@@ -37,3 +37,4 @@
 .\objects\main.o: D:\Softs\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: .\Hardware\CountSensor.h
 .\objects\main.o: .\Hardware\LED.h
+.\objects\main.o: .\System\Timer.h

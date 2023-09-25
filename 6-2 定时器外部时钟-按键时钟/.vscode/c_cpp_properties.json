@@ -3,12 +3,12 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\Hardware",
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\Library",
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\Listings",
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\System",
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\User",
-                "d:\\桌面\\stm32\\5-1 按键控制计次\\Start",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\Hardware",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\Library",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\Listings",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\System",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\User",
+                "d:\\桌面\\stm32\\6-2 定时器外部时钟-按键时钟\\Start",
                 "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include",
                 "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include\\rw"
             ],

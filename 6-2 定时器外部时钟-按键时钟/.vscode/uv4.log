@@ -1,3 +1,25 @@
-Load "d:\\桌面\\stm32\\5-1 按键控制计次\\Objects\\Project.axf" 
-Erase Done.Programming Done.Verify OK.Application running ...
-Flash Load finished at 20:18:14
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Softs\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\Hardware\key.h(14): warning:  #1-D: last line of file ends without a newline
+   
+.\System\Timer.h(12): warning:  #1-D: last line of file ends without a newline
+   
+User\main.c(37): error:  #65: expected a ";"
+  	} 		 
+User\main.c(41): warning:  #1-D: last line of file ends without a newline
+   
+User\main.c: 3 warnings, 1 error
+compiling Timer.c...
+.\System\Timer.h(12): warning:  #1-D: last line of file ends without a newline
+   
+System\Timer.c(17): error:  #136: struct "<unnamed>"  has no field "Alternate"
+      GPIO_InitStructure.Alternate = GPIO_AF2_TIM3;
+System\Timer.c(17): error:  #20: identifier "GPIO_AF2_TIM3" is undefined
+      GPIO_InitStructure.Alternate = GPIO_AF2_TIM3;
+System\Timer.c(62): warning:  #1-D: last line of file ends without a newline
+  }
+System\Timer.c: 2 warnings, 2 errors
+".\Objects\Project.axf" - 3 Error(s), 5 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

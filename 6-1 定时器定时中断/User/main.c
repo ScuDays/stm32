@@ -68,7 +68,7 @@ int a = 0;
  {	 	
 	
  	printNum=0;			//存放LCD ID字符串
-	delay_init();	    	 //延时函数初始化
+	delay_init();	    	 //延时函数初始化 
 	LED_Init();
 	LED0_ON();
 	CountSensor_Init();	 
