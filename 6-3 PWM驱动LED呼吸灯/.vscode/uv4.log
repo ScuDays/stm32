@@ -1,0 +1,17 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Softs\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\Hardware\key.h(14): warning:  #1-D: last line of file ends without a newline
+   
+.\System\Timer.h(12): warning:  #1-D: last line of file ends without a newline
+   
+User\main.c(63): error:  #13: expected a file name
+  #include ""
+User\main.c: 2 warnings, 1 error
+compiling PWM.c...
+Hardware\PWM.c(53): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\PWM.c: 1 warning, 0 errors
+".\Objects\Project.axf" - 1 Error(s), 3 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:07
