@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "stm32f10x.h": "c"
-    }
+    },
+    "codetime.serverEntrypoint": "d2dec58e-09fe-5102-af95-12a1c2665b7e"
 }

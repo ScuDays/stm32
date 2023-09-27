@@ -48,7 +48,7 @@ void PWM_Init(){
     TIM_OCInitStructure.TIM_OutputNState = TIM_OutputState_Enable;
     TIM_OCInitStructure.TIM_Pulse = 50;
     TIM_OC2Init(TIM3,&TIM_OCInitStructure);
-
+    
 	
     //对特定TIM使能
     TIM_Cmd(TIM3, ENABLE);
