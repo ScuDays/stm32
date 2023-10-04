@@ -32,7 +32,7 @@ int a = 0;
 	while(1){
 		
 		LCD_ShowNum(30,40,a,2,24);
-		LCD_ShowNum(30,80,TImer_GetCounter(),5,24)
+		LCD_ShowNum(30,80,TImer_GetCounter(),5,24);
 		
 	} 		 
 		
