@@ -29,8 +29,6 @@ void Serial_Init(void){
 void Serial_SendByte(uint8_t Byte){
     USART_SendData(USART1, Byte);
     while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);
-    
-
 }
 
 int fputc(int ch, FILE *f){

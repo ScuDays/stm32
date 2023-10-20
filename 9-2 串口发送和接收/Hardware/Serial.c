@@ -13,10 +13,15 @@ void Serial_Init(void){
 		GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
 		GPIO_Init(GPIOA, &GPIO_InitStructure);
 
+    GPIO_InitStructure.GPIO_Mode=GPIO_Mode_IPU;
+		GPIO_InitStructure.GPIO_Pin=GPIO_Pin_10;
+		GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
+		GPIO_Init(GPIOA, &GPIO_InitStructure);
+
     USART_InitTypeDef USART_InitStruture;
     USART_InitStruture.USART_BaudRate = 9600;
     USART_InitStruture.USART_HardwareFlowControl = USART_HardwareFlowControl_None;  
-    USART_InitStruture.USART_Mode = USART_Mode_Tx;
+    USART_InitStruture.USART_Mode = USART_Mode_Tx | USART_Mode_Rx;
     USART_InitStruture.USART_Parity = USART_Parity_No;
     USART_InitStruture.USART_StopBits = USART_StopBits_1;
     USART_InitStruture.USART_WordLength = USART_WordLength_8b;

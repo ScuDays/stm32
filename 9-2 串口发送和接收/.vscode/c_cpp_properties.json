@@ -3,12 +3,12 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\Hardware",
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\Library",
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\Listings",
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\System",
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\User",
-                "d:\\OneDrive\\桌面\\stm32\\9-1 串口发送\\Start",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\Hardware",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\Library",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\Listings",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\System",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\User",
+                "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\Start",
                 "D:\\Keil_v5\\ARM\\ARMCC\\include",
                 "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
             ],
