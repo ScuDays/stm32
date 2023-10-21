@@ -1,5 +1,8 @@
 #include "Serial.h"
 #include "stdio.h"
+
+uint8_t Serial_RxData;
+uint8_t Serial_RxFlag;
 void Serial_Init(void){
 
     //开启时钟
@@ -29,6 +32,20 @@ void Serial_Init(void){
     USART_Init(USART1, &USART_InitStruture);
 
     USART_Cmd(USART1,ENABLE);
+
+    USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
+
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+
+    NVIC_InitTypeDef NVIC_InitStructure;
+    NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
+    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1 ;
+
+    //记得一定要初始化！！！
+    NVIC_Init(&NVIC_InitStructure);
+
 }
 
 void Serial_SendByte(uint8_t Byte){
@@ -41,5 +58,25 @@ void Serial_SendByte(uint8_t Byte){
 int fputc(int ch, FILE *f){
     Serial_SendByte(ch);
     return ch;
-    
+}
+
+uint8_t Serial_GetRxFlag(void){
+  if(Serial_RxFlag == 1){
+    Serial_RxFlag = 0;
+    return 1;
+  }
+  return 0;
+} 
+uint8_t Serial_GetRxData(void){
+  return Serial_RxData;
+}
+
+
+void USART1_IRQHandler(void){
+   if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET){
+
+    Serial_RxData = USART_ReceiveData(USART1);
+    Serial_RxFlag = 1; 
+    USART_ClearITPendingBit(USART1, USART_IT_RXNE);
+   }
 }

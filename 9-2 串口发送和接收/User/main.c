@@ -1,8 +1,6 @@
 
 #include "Serial.h"
 
-
- 
 uint8_t RxData;
 
  int main(void)
@@ -22,11 +20,12 @@ uint8_t RxData;
 	//Serial_SendByte(0X41);
 	//Serial_SendByte('A');
 	//printf("Num=%d\r\n", 666);
-
+	
 
 	while(1){
-		if(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == SET){
-			RxData = USART_ReceiveData(USART1);
+
+		if(Serial_GetRxFlag() == 1){
+			RxData = Serial_GetRxData();
 			Serial_SendByte(RxData);		
 		}
 		
