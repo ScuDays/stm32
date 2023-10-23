@@ -968,8 +968,8 @@ I (.\System\delay.h)(0x65274CD4)
 I (.\System\sys.h)(0x65274CD4)
 F (.\Hardware\CountSensor.h)(0x65274CD4)()
 F (.\Hardware\font.h)(0x65274CD4)()
-F (.\Hardware\Serial.c)(0x6533B0B7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\Library -I .\Listings -I .\System -I .\User -I .\Start-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
-I (Hardware\Serial.h)(0x6533B0B7)
+F (.\Hardware\Serial.c)(0x6533D1B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\Library -I .\Listings -I .\System -I .\User -I .\Start-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (Hardware\Serial.h)(0x6533D1DC)
 I (.\Start\stm32f10x.h)(0x65274CD4)
 I (.\Start\core_cm3.h)(0x65274CD4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
@@ -999,9 +999,9 @@ I (.\Library\stm32f10x_usart.h)(0x65274CD4)
 I (.\Library\stm32f10x_wwdg.h)(0x65274CD4)
 I (.\Library\misc.h)(0x65274CD4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (.\Hardware\Serial.h)(0x6533B0B7)()
-F (.\User\main.c)(0x6533B0B7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\Library -I .\Listings -I .\System -I .\User -I .\Start-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\Hardware\Serial.h)(0x6533B0B7)
+F (.\Hardware\Serial.h)(0x6533D1DC)()
+F (.\User\main.c)(0x6533D1B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\Library -I .\Listings -I .\System -I .\User -I .\Start-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Hardware\Serial.h)(0x6533D1DC)
 I (.\Start\stm32f10x.h)(0x65274CD4)
 I (.\Start\core_cm3.h)(0x65274CD4)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)

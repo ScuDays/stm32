@@ -3,13 +3,13 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\桌面\\stm32\\3-4 按键控制LED\\Start",
-                "d:\\桌面\\stm32\\3-4 按键控制LED\\Library",
-                "d:\\桌面\\stm32\\3-4 按键控制LED\\User",
-                "d:\\桌面\\stm32\\3-4 按键控制LED\\System",
-                "d:\\桌面\\stm32\\3-4 按键控制LED\\Hardware",
-                "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include",
-                "D:\\Softs\\Keil_v5\\ARM\\ARMCC\\include\\rw"
+                "d:\\OneDrive\\桌面\\stm32\\3-4 按键控制LED\\Start",
+                "d:\\OneDrive\\桌面\\stm32\\3-4 按键控制LED\\Library",
+                "d:\\OneDrive\\桌面\\stm32\\3-4 按键控制LED\\User",
+                "d:\\OneDrive\\桌面\\stm32\\3-4 按键控制LED\\System",
+                "d:\\OneDrive\\桌面\\stm32\\3-4 按键控制LED\\Hardware",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
