@@ -9,8 +9,8 @@
                 "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\System",
                 "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\User",
                 "d:\\OneDrive\\桌面\\stm32\\9-2 串口发送和接收\\Start",
-                "D:\\Keil_v5\\ARM\\ARMCC\\include",
-                "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
+                "D:\\Keil5\\ARM\\ARMCC\\include",
+                "D:\\Keil5\\ARM\\ARMCC\\include\\rw"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

@@ -1,0 +1,1 @@
+--apcs=interwork -IHardware -ILibrary -IListings -ISystem -IUser -IStart -I.cmsis/include -I"RTE/_Target 1" -I.eide/deps --cpu Cortex-M3 --li --pd "__MICROLIB SETA 1" -g -o ".\build\Target 1\.obj\Start\startup_stm32f10x_md.o" --depend ".\build\Target 1\.obj\Start\startup_stm32f10x_md.d" .\Start\startup_stm32f10x_md.s

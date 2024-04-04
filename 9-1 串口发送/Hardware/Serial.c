@@ -34,5 +34,4 @@ void Serial_SendByte(uint8_t Byte){
 int fputc(int ch, FILE *f){
     Serial_SendByte(ch);
     return ch;
-    
 }

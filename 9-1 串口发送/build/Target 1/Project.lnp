@@ -1,0 +1,1 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "d:/OneDrive/×ÀÃæ/stm32/9-1 ´®¿Ú·¢ËÍ/build/Target 1/Project.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list ".\build\Target 1\Project.map"

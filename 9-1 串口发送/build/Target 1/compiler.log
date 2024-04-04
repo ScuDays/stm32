@@ -1,0 +1,69 @@
+>>> cc
+
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\Buzzer.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\Key.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\LED.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\CountSensor.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\LightSensor.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Hardware\Serial.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\misc.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_adc.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_bkp.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_can.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_cec.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_crc.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_dac.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_dbgmcu.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_dma.c: 0 warnings, 1 error
+"Start\stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\Library\stm32f10x_exti.c: 0 warnings, 1 error
+
+>>> ld
+
