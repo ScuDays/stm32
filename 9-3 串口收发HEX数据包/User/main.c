@@ -25,15 +25,10 @@ uint8_t KeyNum;
 	Serial_TxPacket[2] = 0x03;
 	Serial_TxPacket[3] = 0x04;
 	
-
+	Serial_SendPacket();
+	//Serial_SendArray(Serial_TxPacket, 4);
 	while(1){
-
-
-		if(Serial_GetRxFlag() == 1){
-
-			Serial_SendArray(Serial_RxPacket, 4);
-		
-		}
+	
 	}
 		
 			 
